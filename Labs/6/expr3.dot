@@ -1,0 +1,28 @@
+digraph G {
+	m[color = lightblue, peripheries=2, style = filled, label="-"]
+	e[color = lightblue, peripheries=2, style = filled, label="+"]
+	a[color = lightblue, peripheries=2, style = filled, label="a"]
+	d[color = lightblue, peripheries=2, style = filled, label="*"]
+	b[color = lightblue, peripheries=2, style = filled, label="b"]
+	c[color = lightblue, peripheries=2, style = filled, label="c"]
+	l[color = lightblue, peripheries=2, style = filled, label="*"]
+	j[color = lightblue, peripheries=2, style = filled, label="+"]
+	h[color = lightblue, peripheries=2, style = filled, label="*"]
+	f[color = lightblue, peripheries=2, style = filled, label="d"]
+	g[color = lightblue, peripheries=2, style = filled, label="e"]
+	i[color = lightblue, peripheries=2, style = filled, label="f"]
+	k[color = lightblue, peripheries=2, style = filled, label="g"]
+
+	m -> e
+	m -> l
+	e -> a
+	e -> d
+	d -> b
+	d -> c
+	l -> j
+	l -> k
+	j -> h
+	j -> i
+	h -> f
+	h -> g
+}

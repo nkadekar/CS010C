@@ -1,0 +1,16 @@
+digraph G {
+	g[color = lightblue, peripheries=2, style = filled, label="*"]
+	c[color = lightblue, peripheries=2, style = filled, label="+"]
+	a[color = lightblue, peripheries=2, style = filled, label="a"]
+	b[color = lightblue, peripheries=2, style = filled, label="b"]
+	f[color = lightblue, peripheries=2, style = filled, label="-"]
+	d[color = lightblue, peripheries=2, style = filled, label="c"]
+	e[color = lightblue, peripheries=2, style = filled, label="d"]
+
+	g -> c
+	g -> f
+	c -> a
+	c -> b
+	f -> d
+	f -> e
+}
